@@ -1,0 +1,49 @@
+body{
+    background-image: url(back.jpg)
+}
+#form {
+    background-color: rgb(70, 46, 33);
+    height: 490px;
+    width: 400px;
+    box-shadow: 0.5px 0.5px 10px 0.5px snow;
+    padding: 4px; 
+}
+#form h1 {
+    text-align: center;
+    color: antiquewhite;
+}
+
+#form input[type="text"]{
+      height: 40px;
+      font-size: 1em;
+      color: black;
+      width: 230px;
+      border-radius: 20px 20px 20px 20px;
+      font-weight: 600;     
+}
+#form input[type="Number"]{
+    height: 40px;
+    font-size: 1em;
+    color: black;
+    width: 230px;
+    border-radius: 20px 20px 20px 20px;
+    font-weight: 600;     
+}
+#form input[type='submit']{
+    color: snow;
+    background-color: rgb(10, 10, 46);
+    border:2px solid rgb(10, 10, 46);
+    height: 30px;
+    width:100px;
+    border-radius: 12px 12px 12px 12px;
+}
+.sel {
+    background-color: snow;
+    color: black;
+    font-weight: 600;
+    height: 30px;
+    width:150px;
+    border-radius: 12px 12px 12px 12px;
+    padding: 2px;
+    font-size: 1em;
+}

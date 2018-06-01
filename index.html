@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <!-- Task 3 input taking from below div -->
+          <h1 style="color: snow; text-align: center;"> All Results of Program are shown in Console (inspect element option)</h1>
+          <hr>
+          <br>
+          <center>
+    <div id="form"> 
+        <br>
+           <h1>Greeting App</h1>
+           <label style="color: snow; text-align: center; font-size: 1.4em;">Enter First Name</label><br><br>
+           <input type="text" name="FirstName" required id="fname"><br><br>
+           <label style="color: snow; text-align: center; font-size: 1.4em;">Enter Last Name</label><br><br>
+           <input type="text" name="LastName" required  id="lastname"><br><br>
+           <input type="submit" name="press me" onclick="greeting()">
+
+    </div>  
+</center>  
+<br><br>
+<center>
+        <div id="form"> 
+            <br>
+               <h1>Sum of 2 number generator</h1>
+               <label style="color: snow; text-align: center; font-size: 1.4em;">Enter First Number</label><br><br>
+               <input type="number"   id="num1" required><br><br>
+               <label style="color: snow; text-align: center; font-size: 1.4em;">Enter Second Number</label><br><br>
+               <input type="number"    id="num2" required><br><br>
+               <input type="submit"  onclick="sum()">
+    
+        </div>  
+    </center>  
+    <br><br>
+    <center>
+            <div id="form"> 
+                <br>
+                   <h1>2 Number Input Calculatotor</h1>
+                   <label style="color: snow; text-align: center; font-size: 1.4em;">Enter First Number</label><br><br>
+                   <input type="number"   id="number1" required><br><br>
+                   <label style="color: snow; text-align: center; font-size: 1.4em;">Enter Second Number</label><br><br>
+                   <input type="number"    id="number2" required><br><br>
+                   
+                   <label style="color: snow; text-align: center;">Select Operations</label><br><br>
+                   <select name="Operators" class="sel" id="select" >
+                       <option id="add">Addition</option>
+                       <option id="sub">Subtraction</option>
+                       <option id="Mul">Multiplication</option>
+                       <option id="div">Division</option>
+                   </select>
+                   <br><br>
+                   <input type="submit"  onclick="cal()">
+            </div>  
+        </center>  
+        <br><br>
+        <center>
+                <div id="form"> 
+                    <br>
+                       <h1>Factorial generator</h1><br><br>
+                       <label style="color: snow; text-align: center; font-size: 1.4em;">Enter Any Number</label><br><br>
+                       <input type="number" id="num" required><br><br><br>
+                       <input type="submit" onclick="fact()">
+            
+                </div>  
+            </center>  
+
+            <br><br>
+<center>
+        <div id="form"> 
+            <br>
+               <h1>Triangle Sides Calculatotor</h1>
+               <label style="color: snow; text-align: center; font-size: 1.4em;">Base</label><br><br>
+               <input type="number"    id="base" required><br><br>
+               <label style="color: snow; text-align: center; font-size: 1.4em;">Perpendicular</label><br><br>
+               <input type="number"    id="per" required><br><br>
+               <input type="submit"  onclick="rightangle()">
+    
+        </div>  
+    </center>  
+    <br><br>
+    <center>
+        <div id="form"> 
+            <br>
+               <h1>Dice Random Number Generator</h1>
+               <img src="dice.jpg" alt="Dice"   height=190px;
+               width=250px;><br><br>
+               <input type="submit"  onclick="dice()">
+                <h3 id="diceValue" ></h3>
+        </div>  
+    </center>  
+    <br><br>
+    <center>
+            <div id="form"> 
+                <br>
+                   <h1>Reverse A Number</h1>
+                   <!-- <img src="dice.jpg" alt="Dice"   height=190px; -->
+                   <!-- width=250px;><br><br> -->
+                   <input type="text"  id="numberInput">
+                   <input type="submit"  onclick="reverseNumber()">
+                    <h3 id="result" ></h3>
+            </div>  
+        </center>
+        <br><br>  
+    <center>
+            <div id="form"> 
+                <br>
+                   <h1>Check Pallindrome</h1>
+                   <!-- <img src="dice.jpg" alt="Dice"   height=190px; -->
+                   <!-- width=250px;><br><br> -->
+                   <input type="text"  id="stringInp">
+                   <input type="submit"  onclick="checkPallindrome()">
+            </div>  
+        </center>
+        
+        <br><br>
+        <center>
+            <div id="form"> 
+                <br>
+                   <h1>Longest Word</h1>
+                   <!-- <img src="dice.jpg" alt="Dice"   height=190px; -->
+                   <!-- width=250px;><br><br> -->
+                   <input type="text"  id="wordInp">
+                   <input type="submit"  onclick="longestWord()">
+                    <h3 id="resultWord" ></h3>
+            </div>  
+        </center>
+<center>
+        <div id="form"> 
+            
+               <h1>Vowel Finder</h1><br><br>
+               <label style="color: snow; text-align: center; font-size: 1.4em;">Enter any word OR alphabet</label><br><br>
+               <img src="vowel.jpg" alt="Dice"   height=190px;
+               width=250px;><br><br>
+               <input type="text" id="vo" required><br><br>
+               <input type="submit" onclick="vowel()">
+        </div>  
+    </center>
+    <br><br>
+    <center>
+            <div id="form"> 
+                
+                   <h1>Age Calculator</h1><br><br>
+                   <label style="color: snow; text-align: center; font-size: 1.4em;">Enter your current age</label><br><br>
+                   <input type="text" id="birth" required><br><br>
+                   <input type="submit" onclick="calculate_age()">
+            </div>  
+        </center>
+
+        <br><br>
+    <center>
+            <div id="form"> 
+                
+                   <h1> The Lifetime Supply Calculator </h1><br><br>
+                   <label style="color: snow; text-align: center; font-size: 1.4em;">Enter your current age</label><br><br>
+                   <input type="text" id="age" required><br><br>
+                   <label style="color: snow; text-align: center; font-size: 1.4em;">Enter no of Drinks of Orange Juice you drink daily</label><br><br>
+                   <input type="text" id="Drink" required><br><br>
+                   <input type="submit" onclick="lifetime_supply()">
+            </div>  
+        </center>
+
+        <br><br>
+        <center>
+                <div id="form"> 
+                    
+                       <h1> Circumference of Circle </h1><br><br>
+                       <label style="color: snow; text-align: center; font-size: 1.4em;">Enter the value radius</label><br><br>
+                       <img src="circle.1" alt="Circle"   height=190px;
+                       width=250px;><br><br>
+                       <input type="number" id="rad" required><br><br>
+                       <input type="submit" onclick="Geometry()">
+                       
+                </div>  
+            </center>
+
+            
+        <br><br>
+        <center>
+                <div id="form"> 
+                    
+                       <h1>Temperature Converter</h1><br><br>
+                       <label style="color: snow; text-align: center; font-size: 1.4em;">Enter Degree Fahrenheit</label><br><br>
+                       <input type="number" id="temp" required><br><br>
+                       <label style="color: snow; text-align: center; font-size: 1.4em;">Enter Degree Celsius</label><br><br>
+                       <input type="number" id="temp1" required><br><br>
+                       <input type="submit" onclick="Temperature_Converter()">
+                       
+                </div>  
+            </center>
+          
+
+</body>
+</html>
